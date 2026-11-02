@@ -4,7 +4,7 @@
 Porque la ruta * está dentro de la ruta del Layout. El 404 se pinta en el Outlet, así que el encabezado y el pie se quedan donde estaban.
 
 ¿qué cambia en la pestaña Red si usas <a "href"> en lugar de Link?
-Con <a href> se recarga toda la página y se vuelven a descargar el documento, el JS y el CSS. Con Link no se recarga nada y solo aparecen las peticiones que necesita la nueva página, como las de la api.
+Con <a "href"> se recarga toda la página y se vuelven a descargar el documento, el JS y el CSS. Con Link no se recarga nada y solo aparecen las peticiones que necesita la nueva página, como las de la api.
 
 ¿en qué tipo de dato llega el id de la URL y qué pasa si no lo conviertes?
 Llega como texto. Si no lo conviertes, TypeScript marca error porque useClase espera un número, y comparaciones como "1" === 1 dan falso.
